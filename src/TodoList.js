@@ -33,7 +33,7 @@ class TodoList extends Component {
                     this.checkbox = input
                   }}
                   onClick={(event) => {
-                    this.props.toggleCompleted(this.checkbox.name) }}/>
+                    this.props.toggleCompleted(task.id) }}/>
                   <span className="content">{task.content}</span>
                 </label>
               </div>
